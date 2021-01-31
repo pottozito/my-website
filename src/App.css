@@ -42,3 +42,7 @@ body {
     transform: rotate(360deg);
   }
 }
+
+a {
+  color: #212529 !important;
+}
