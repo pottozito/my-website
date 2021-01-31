@@ -74,7 +74,7 @@ const HighLights = () => {
                 </div>
             </div>
             <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'center', fontSize: '6pt' }}>
-                {content.map(function (i) {
+                {content.map(function (element, i) {
                     return (
                         <motion.div key={i} animate={page === i ? 'zoom' : 'unzoom'} variants={{
                             unzoom: {
