@@ -1,6 +1,6 @@
 {
   "name": "my-website",
-  "homepage": "http://pottozito.github.io/my-website",
+  "homepage": "pottozito.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
