@@ -11,7 +11,7 @@ const HomeScreen = () => {
         <Container>
             <Row>
                 <Col>
-                    <motion.div initial={{ opacity: 0 }} animate={{ opacity: [0, 1] }} transition={{ duration: 1 }} style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
+                    <motion.div initial={{ opacity: 0 }} animate={{ opacity: [0, 1] }} transition={{ duration: 1 }} style={{ minHeight: '90vh', display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
                         <div className={'mb-5'}>
                             <h1 className={'mb-1'} style={{ fontSize: '2.5rem' }}><b>ZITO NAMURO</b></h1>
                             <h6 className={'m-0 mb-5'}>Web Developer • Student</h6>
